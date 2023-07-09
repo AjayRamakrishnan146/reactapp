@@ -18,8 +18,9 @@ const Home = () => {
 
     return (
         <div>
-            <div className="container">
+            <div className="container mt-2">
                 <div className="row">
+                    <h2>Home Page-Employees List</h2>
                     <div className="col col-12 col-sm-12 col-md-12">
                         <div className="row g-3 mt-3 mb-3">
                             {data.map(
